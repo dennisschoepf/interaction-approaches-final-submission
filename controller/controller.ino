@@ -29,9 +29,11 @@ void setup() {
 void loop() {
   Serial.println( hc.dist() );
   setRGBColor(0, 0, 0);
+  // servo.write(10);
   // tone(buzzerPin, 500);
   delay(500);
   // noTone(buzzerPin);
+  // servo.write(30);
   setRGBColor(0, 0, 0);
   delay(500);
 }
